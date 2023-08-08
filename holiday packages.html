@@ -1,0 +1,906 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Holiday Packages</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!--    header section start here-->
+<header class=" pt-5">
+    <nav>
+        <div class="container-fluid">
+            <div class="row hidden justify-content-center">
+                <div class="col-10 navbar nav navbar-expand-xl ">
+                    <a href="" class="nav-link navbar-brand"><p class="text-uppercase display-6 fw-bold fontfamily text-primary ">Travel Architect</p></a>
+                    <button class="navbar-toggler btn-primary border-0" data-bs-target="#menu" data-bs-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse menu fw-bolder" id="menu">
+                        <ul class="ms-auto  navbar-nav navbar-brand text-uppercase">
+                            <li class="nav-item"><a href="" class="nav-link fs-10 px-2 fontfamily text-black  menuhover"><small>tour</small></a></li>
+                            <li class="nav-item"><a href="" class="nav-link fs-10 px-2 fontfamily text-black  menuhover"><small>customized package</small></a></li>
+                            <li class="nav-item"><a href="" class="nav-link fs-10 px-2 fontfamily text-black  menuhover"><small>places</small></a></li>
+                            <li class="nav-item"><a href="" class="nav-link fs-10 px-2 fontfamily text-black menuhover"><small>contact</small> us</a></li>
+                            <li class="nav-item"><button type="button" class="btn btn-lg btn-warning text-black border fw-bolder border-black ms-3 me-0 buttonhover  menuhover">BOOK NOW</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--    header section End here-->
+
+
+<!--Middle part start here-->
+<section class="py-2">
+    <div class="container">
+        <div class="row">
+
+            <!--            Part 1  start here-->
+
+            <div class="col-md-3">
+                <ul class="nav">
+                    <li><a class="text-dark nav-link fw-bold" href="">Home</a></li>
+                    <li><a class="ps-0 text-dark nav-link" href=""><i class="px-2 fa-solid fa-greater-than"></i> Holiday Packages</a></li>
+                </ul>
+
+
+                <div class="card me-3">
+
+                    <div class="row card-header bg-primary">
+                        <div class="col-lg-12 py-4">
+                            <h6 class="fw-bolder py-3 text-white"><i class="fa-solid fa-location-dot pe-2"></i> Your Location</h6>
+                            <form action="">
+                                <div class="input-group ">
+                                    <input id="msg" type="search" class="form-control rounded-0" name="msg" placeholder="search">
+                                    <span class="input-group-addon"><button class="form-control rounded-0"><i class="fa-solid fa-magnifying-glass"></i></button></span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row card-body">
+                        <div class="col-12 border-bottom border-dark border-1 border-opacity-50 py-4">
+                            <div data-role="page">
+                                <div data-bs-role="main" class="">
+                                    <div class="slidecontainer">
+                                        <label for="">Duration</label>
+                                        <label class="float-end" for="">Reset</label>
+                                        <input type="range"  min="1" max="13"  value="5" class="slider" id="myRange">
+                                        <label for="myRange">2</label>
+                                        <label class="float-end" for="">13</label>
+                                        <p class="fw-bolder text-center">Value: <span id="demo1"></span></p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row card-body">
+                        <div class="col-12 py-3">
+                            <div data-role="page">
+                                <div data-bs-role="main" class="">
+                                    <div class="slidecontainer">
+                                        <label for="">Filter Price</label>
+                                        <label class="float-end" for="">Reset</label>
+                                        <input type="range" min="1000" max="5000" value="500" class="slider" id="myRange2">
+                                        <label class="" for="">৳1000</label>
+                                        <label class="float-end" for="">৳ 5,000</label>
+                                        <p class="fw-bolder text-center">Value: ৳ <span id="demo2"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--                    accordion section start here-->
+
+                    <div class="row">
+                        <div class="col-12 py-3">
+                            <div class="accordion" id="accordion1">
+                                <div class="card  border-0">
+                                    <div class="card-header border-0">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#id1"
+                                                class="btn accordion-button ps-0  bg-body border-0 w-100 rounded-0">
+                                            <h6>Review Score</h6>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body cardhover3 border-0 collapse fade show" data-bs-parent="#accordion1" id="id1">
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-4" for="">
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                            <i class="fa-regular fa-star text-orange"></i>
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-4" for="">
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                        </label>
+                                    </div>
+                                     <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-4" for="">
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                            <i class="fa-solid fa-star text-orange"></i>
+
+                                        </label>
+                                    </div>
+                                     <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-4" for="">
+                                            <i class="fa-solid fa-star text-orange"></i>
+                                            <i class="fa-solid fa-star text-orange"></i>
+
+                                        </label>
+                                    </div>
+                                     <div class="form-check mx-2">
+                                        <input class="form-check-input fs-4 border-black" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-4" for="">
+                                            <i class="fa-solid fa-star text-orange"></i>
+
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+<!--                        Holiday Type Section start here-->
+
+                        <div class="col-12  pb-3">
+                            <div class="accordion" id="accordion2">
+                                <div class="card p-0 border-0">
+                                    <div class="card-header border-0">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#id2"
+                                                class="btn accordion-button bg-body ps-0 border-0 w-100 rounded-0">
+                                            <h6>Holidays Type</h6>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body cardhover3 collapse fade show" data-bs-parent="#accordion2" id="id2">
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                           Customized Holidays
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Nature & Adventure
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Group Holidays
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Luxury
+                                        </label>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+<!--                        Holiday Type Section End here-->
+
+<!--                        Recomended For Section Start here-->
+
+                        <div class="col-12 pb-3">
+                            <div class="accordion" id="accordion3">
+                                <div class="card border-0">
+                                    <div class="card-header border-0">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#id3"
+                                                class="btn accordion-button ps-0 bg-body border-0 w-100 rounded-0">
+                                            <h6>Recomended For</h6>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body cardhover3 collapse fade show" data-bs-parent="#accordion3" id="id3">
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Adventure
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Honeymoon
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Family with Kids
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Our Recomended
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+ <!--                        Recomended For Section End here-->
+
+ <!--                        Facilities  Section Start here-->
+
+                        <div class="col-12 pb-3">
+                            <div class="accordion" id="accordion4">
+                                <div class="card border-0">
+                                    <div class="card-header border-0">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#id4"
+                                                class="btn accordion-button ps-0 bg-body border-0 w-100 rounded-0">
+                                            <h6>Facilities</h6>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body cardhover3 collapse fade show" data-bs-parent="#accordion4" id="id4">
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Wifi
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Gymnasium
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Mountain Bike
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            Satelite Office
+                                        </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+<!--                        Facilities  Section End here-->
+
+<!--                        Visa Service  Section Start here-->
+
+                        <div class="col-12 pb-3">
+                            <div class="accordion" id="accordion5">
+                                <div class="card border-0">
+                                    <div class="card-header border-0">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#id5"
+                                                class="btn accordion-button ps-0 bg-body border-0 w-100 rounded-0">
+                                            <h6>Visa Services</h6>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body cardhover3 collapse fade show" data-bs-parent="#accordion" id="id5">
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label fs-6 pt-1 listhover" for="">
+                                            London,Uk
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label listhover fs-6 pt-1" for="">
+                                            Colombia
+                                        </label>
+                                    </div>
+                                     <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label listhover fs-6 pt-1" for="">
+                                            Thailand
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-2">
+                                        <input class="form-check-input border-black fs-4" type="checkbox" value="" id="">
+                                        <label class="form-check-label listhover fs-6 pt-1" for="">
+                                            Canada
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<!--                        Visa Service  Section End here-->
+
+<!--                        Visa Services 2  Section Start here-->
+
+                        <div class="col-12  pb-3">
+                            <div class="accordion " id="accordion6">
+                                <div class="card  border-0">
+                                    <div class="card-header  border-0">
+                                        <button type="button" data-bs-toggle="collapse" data-bs-target="#id6"
+                                                class="btn accordion-button ps-0 bg-body border-0 w-100 rounded-0">
+                                            <h6>Visa Services</h6>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="card-body  collapse border-0 fade show" data-bs-parent="#accordion6" id="id6">
+
+                                    <div class="row hidden cardhover3 py-3">
+                                        <div class="col-lg-4 mb-2">
+                                            <a href=""><img class="img-fluid" src="img/card%209.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <a class="nav-link" href="">
+                                                <h6>Umrah & Egypt Package -14 Day</h6>
+                                                <small>Starts from ৳ 61,999/per person</small>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row hidden cardhover3 py-3">
+                                        <div class="col-lg-4 mb-2">
+                                            <a href=""><img class="img-fluid" src="img/card10.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <a class="nav-link" href="">
+                                                <h6>Explore Kuala Lumpur in 03 Days</h6>
+                                                <small>Starts from ৳ 23,999/per person </small>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row hidden cardhover3 py-3">
+                                        <div class="col-lg-4 mb-2">
+                                            <a href=""><img class="img-fluid" src="img/card11.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <a class="nav-link" href="">
+                                                <h6>City of Culture Kyoto Tour – 2 Days 1 Night</h6>
+                                                <small>Starts from ৳23,999/per person</small>
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+ <!--                        Visa Services 2 Section End here-->
+                    </div>
+
+ <!--                    accordion section End here-->
+                </div>
+
+
+
+            </div>
+
+<!--            Part 1  End here-->
+
+
+ <!--            Part 2  Start here-->
+
+            <div class="col-md-9 ">
+
+
+                <div class="row mt-4 border-bottom pb-3 border-dark">
+                    <div class="col-sm-7 col-md-7 ">
+                        <span class="">Showing 9 holiday packages found</span> ( <a class="navbar-brand text-primary" href="">Show all</a> )
+                    </div>
+                    <div class="col-sm-5 col-md-5 text-end">
+
+                        <ul>
+
+                            <li class="list-unstyled dropdown">
+                                <sapn class="px-3">Sort by latest</sapn>
+                                <a class="navbar-brand text-primary dropdown-toggle" data-bs-toggle="dropdown" href="">Popularity</a>
+                                    <ul class="dropdown-menu dropdown-menu-end bg-dark dropdown-menu-dark">
+                                        <li class=""><a class="dropdown-item" href="">Popularity 1</a></li>
+                                        <li class=""><a class="dropdown-item" href="">Popularity 1</a></li>
+                                        <li class=""><a class="dropdown-item" href="">Popularity 1</a></li>
+                                        <li class=""><a class="dropdown-item" href="">Popularity 1</a></li>
+                                        <li class=""><a class="dropdown-item" href="">Popularity 1</a></li>
+                                        <li class=""><a class="dropdown-item" href="">Popularity 1</a></li>
+                                        <li class=""><a class="dropdown-item" href="">Popularity 1</a></li>
+                                        <li class=""><a class="dropdown-item" href="">Popularity 1</a></li>
+                                        <li class=""><a class="dropdown-item" href="">Popularity 1</a></li>
+                                        <li class=""><a class="dropdown-item" href="">Popularity 1</a></li>
+                                    </ul>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="row hidden">
+                    <div class="col-12 mt-3 pe-0">
+                        <div class="card cardhover card-body card-shadow rounded-corner-10">
+                            <div class="row p-0">
+                                <div class="col-md-6 col-lg-4  col-xl-4 p-0">
+                                    <a href=""><img class="img-fluid w-100 h-100 p-2 rounded-corner" src="img/card11.jpeg" alt=""></a>
+                                </div>
+                                <div class="col-md-6 col-lg-6  col-xl-6 mt-4">
+                                    <a class="nav-link" href="">
+                                        <div class="">
+                                            <h5>Copenhagen to Helsinki - 3 Days</h5>
+                                            <p>4 Night / 7 Days</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Copenhagen Denmark</p>
+                                            <p class="text-primary">
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-regular fa-star text-orange"></i>
+                                                4.5
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                                architecto assumenda. </p>
+                                            <ul class="nav">
+                                                <li class="px-0 px-lg-2"><small><i class="fa-solid fa-hotel"></i> Hotel </small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-camera-retro"></i> Sightseeing</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-car"></i> Transfer</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-bowl-food"></i> Meals</small></li>
+                                                <li class=""><small><i class="fa-solid fa-plane-circle-check"></i> Flight</small></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-12 col-lg-2 d-flex justify-content-lg-between align-items-end top-100">
+                                    <div class="ps-0 ps-lg-2 mt-2 mt-lg-0 ps-md-0">
+                                        <small>Start Price per Adult</small>
+                                        <h6 class="fw-bolder">BDT 12,990</h6>
+                                        <a class="btn btn-sm btn-warning buttonhover btn-shadow" href="">BOOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row hidden">
+                    <div class="col-12 mt-3 pe-0">
+                        <div class="card cardhover card-body card-shadow rounded-corner-10">
+                            <div class="row p-0">
+                                <div class="col-md-6 col-lg-4  col-xl-4 p-0">
+                                    <a href=""><img class="img-fluid w-100 h-100 p-2 rounded-corner" src="img/card12.jpeg" alt=""></a>
+                                </div>
+                                <div class="col-md-6 col-lg-6  col-xl-6 mt-4">
+                                    <a class="nav-link" href="">
+                                        <div class="">
+                                            <h5>Copenhagen to Helsinki - 3 Days</h5>
+                                            <p>4 Night / 7 Days</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Copenhagen Denmark</p>
+                                            <p class="text-primary">
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-regular fa-star text-orange"></i>
+                                                4.5
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                                architecto assumenda. </p>
+                                            <ul class="nav">
+                                                <li class="px-0 px-lg-2"><small><i class="fa-solid fa-hotel"></i> Hotel </small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-camera-retro"></i> Sightseeing</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-car"></i> Transfer</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-bowl-food"></i> Meals</small></li>
+                                                <li class=""><small><i class="fa-solid fa-plane-circle-check"></i> Flight</small></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-12 col-lg-2 d-flex justify-content-lg-between align-items-end top-100">
+                                    <div class="ps-0 ps-lg-2 mt-2 mt-lg-0 ps-md-0">
+                                        <small>Start Price per Adult</small>
+                                        <h6 class="fw-bolder">BDT 12,990</h6>
+                                        <a class="btn btn-sm btn-warning buttonhover btn-shadow" href="">BOOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row hidden">
+                    <div class="col-12 mt-3 pe-0">
+                        <div class="card cardhover card-body card-shadow rounded-corner-10">
+                            <div class="row p-0">
+                                <div class="col-md-6 col-lg-4  col-xl-4 p-0">
+                                    <a href=""><img class="img-fluid w-100 h-100 p-2 rounded-corner" src="img/card13.jpeg" alt=""></a>
+                                </div>
+                                <div class="col-md-6 col-lg-6  col-xl-6 mt-4">
+                                    <a class="nav-link" href="">
+                                        <div class="">
+                                            <h5>Copenhagen to Helsinki - 3 Days</h5>
+                                            <p>4 Night / 7 Days</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Copenhagen Denmark</p>
+                                            <p class="text-primary">
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-regular fa-star text-orange"></i>
+                                                4.5
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                                architecto assumenda. </p>
+                                            <ul class="nav">
+                                                <li class="px-0 px-lg-2"><small><i class="fa-solid fa-hotel"></i> Hotel </small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-camera-retro"></i> Sightseeing</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-car"></i> Transfer</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-bowl-food"></i> Meals</small></li>
+                                                <li class=""><small><i class="fa-solid fa-plane-circle-check"></i> Flight</small></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-12 col-lg-2 d-flex justify-content-lg-between align-items-end top-100">
+                                    <div class="ps-0 ps-lg-2 mt-2 mt-lg-0 ps-md-0">
+                                        <small>Start Price per Adult</small>
+                                        <h6 class="fw-bolder">BDT 12,990</h6>
+                                        <a class="btn btn-sm btn-warning buttonhover btn-shadow" href="">BOOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row hidden">
+                    <div class="col-12 mt-3 pe-0">
+                        <div class="card cardhover card-body card-shadow rounded-corner-10">
+                            <div class="row p-0">
+                                <div class="col-md-6 col-lg-4  col-xl-4 p-0">
+                                    <a href=""><img class="img-fluid w-100 h-100 p-2 rounded-corner" src="img/card14.jpeg" alt=""></a>
+                                </div>
+                                <div class="col-md-6 col-lg-6  col-xl-6 mt-4">
+                                    <a class="nav-link" href="">
+                                        <div class="">
+                                            <h5>Copenhagen to Helsinki - 3 Days</h5>
+                                            <p>4 Night / 7 Days</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Copenhagen Denmark</p>
+                                            <p class="text-primary">
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-regular fa-star text-orange"></i>
+                                                4.5
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                                architecto assumenda. </p>
+                                            <ul class="nav">
+                                                <li class="px-0 px-lg-2"><small><i class="fa-solid fa-hotel"></i> Hotel </small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-camera-retro"></i> Sightseeing</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-car"></i> Transfer</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-bowl-food"></i> Meals</small></li>
+                                                <li class=""><small><i class="fa-solid fa-plane-circle-check"></i> Flight</small></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-12 col-lg-2 d-flex justify-content-lg-between align-items-end top-100">
+                                    <div class="ps-0 ps-lg-2 mt-2 mt-lg-0 ps-md-0">
+                                        <small>Start Price per Adult</small>
+                                        <h6 class="fw-bolder">BDT 12,990</h6>
+                                        <a class="btn btn-sm btn-warning buttonhover btn-shadow" href="">BOOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row hidden">
+                    <div class="col-12 mt-3 pe-0">
+                        <div class="card cardhover card-body card-shadow rounded-corner-10">
+                            <div class="row p-0">
+                                <div class="col-md-6 col-lg-4  col-xl-4 p-0">
+                                    <a href=""><img class="img-fluid w-100 h-100 p-2 rounded-corner" src="img/card15.jpeg" alt=""></a>
+                                </div>
+                                <div class="col-md-6 col-lg-6  col-xl-6 mt-4">
+                                    <a class="nav-link" href="">
+                                        <div class="">
+                                            <h5>Copenhagen to Helsinki - 3 Days</h5>
+                                            <p>4 Night / 7 Days</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Copenhagen Denmark</p>
+                                            <p class="text-primary">
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-regular fa-star text-orange"></i>
+                                                4.5
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                                architecto assumenda. </p>
+                                            <ul class="nav">
+                                                <li class="px-0 px-lg-2"><small><i class="fa-solid fa-hotel"></i> Hotel </small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-camera-retro"></i> Sightseeing</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-car"></i> Transfer</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-bowl-food"></i> Meals</small></li>
+                                                <li class=""><small><i class="fa-solid fa-plane-circle-check"></i> Flight</small></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-12 col-lg-2 d-flex justify-content-lg-between align-items-end top-100">
+                                    <div class="ps-0 ps-lg-2 mt-2 mt-lg-0 ps-md-0">
+                                        <small>Start Price per Adult</small>
+                                        <h6 class="fw-bolder">BDT 12,990</h6>
+                                        <a class="btn btn-sm btn-warning buttonhover btn-shadow" href="">BOOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row hidden">
+                    <div class="col-12 mt-3 pe-0">
+                        <div class="card cardhover card-body card-shadow rounded-corner-10">
+                            <div class="row p-0">
+                                <div class="col-md-6 col-lg-4  col-xl-4 p-0">
+                                    <a href=""><img class="img-fluid w-100 h-100 p-2 rounded-corner" src="img/card16.jpeg" alt=""></a>
+                                </div>
+                                <div class="col-md-6 col-lg-6  col-xl-6 mt-4">
+                                    <a class="nav-link" href="">
+                                        <div class="">
+                                            <h5>Copenhagen to Helsinki - 3 Days</h5>
+                                            <p>4 Night / 7 Days</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Copenhagen Denmark</p>
+                                            <p class="text-primary">
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-regular fa-star text-orange"></i>
+                                                4.5
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                                architecto assumenda. </p>
+                                            <ul class="nav">
+                                                <li class="px-0 px-lg-2"><small><i class="fa-solid fa-hotel"></i> Hotel </small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-camera-retro"></i> Sightseeing</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-car"></i> Transfer</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-bowl-food"></i> Meals</small></li>
+                                                <li class=""><small><i class="fa-solid fa-plane-circle-check"></i> Flight</small></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-12 col-lg-2 d-flex justify-content-lg-between align-items-end top-100">
+                                    <div class="ps-0 ps-lg-2 mt-2 mt-lg-0 ps-md-0">
+                                        <small>Start Price per Adult</small>
+                                        <h6 class="fw-bolder">BDT 12,990</h6>
+                                        <a class="btn btn-sm btn-warning buttonhover btn-shadow" href="">BOOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row hidden">
+                    <div class="col-12 mt-3 pe-0">
+                        <div class="card cardhover card-body card-shadow rounded-corner-10">
+                            <div class="row p-0">
+                                <div class="col-md-6 col-lg-4  col-xl-4 p-0">
+                                    <a href=""><img class="img-fluid w-100 h-100 p-2 rounded-corner" src="img/tour2.jpeg" alt=""></a>
+                                </div>
+                                <div class="col-md-6 col-lg-6  col-xl-6 mt-4">
+                                    <a class="nav-link" href="">
+                                        <div class="">
+                                            <h5>Copenhagen to Helsinki - 3 Days</h5>
+                                            <p>4 Night / 7 Days</p>
+                                            <p><i class="fa-solid fa-location-dot"></i> Copenhagen Denmark</p>
+                                            <p class="text-primary">
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-solid fa-star text-orange"></i>
+                                                <i class="fa-regular fa-star text-orange"></i>
+                                                4.5
+                                            </p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
+                                                architecto assumenda. </p>
+                                            <ul class="nav">
+                                                <li class="px-0 px-lg-2"><small><i class="fa-solid fa-hotel"></i> Hotel </small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-camera-retro"></i> Sightseeing</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-car"></i> Transfer</small></li>
+                                                <li class="px-2"><small><i class="fa-solid fa-bowl-food"></i> Meals</small></li>
+                                                <li class=""><small><i class="fa-solid fa-plane-circle-check"></i> Flight</small></li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-12 col-lg-2 d-flex justify-content-lg-between align-items-end top-100">
+                                    <div class="ps-0 ps-lg-2 mt-2 mt-lg-0 ps-md-0">
+                                        <small>Start Price per Adult</small>
+                                        <h6 class="fw-bolder">BDT 12,990</h6>
+                                        <a class="btn btn-sm btn-warning buttonhover btn-shadow" href="">BOOK NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row hidden mt-5 justify-content-lg-end justify-content-center">
+                    <div class="col-md-5 ">
+                        <nav class="" aria-label="Page navigation example mt-3 ">
+                            <ul class="pagination">
+                                <li class="page-item "><a class="page-link menuhover" href="#"><< Previous</a></li>
+                                <li class="page-item "><a class="page-link menuhover" href="#">1</a></li>
+                                <li class="page-item "><a class="page-link menuhover" href="#">2</a></li>
+                                <li class="page-item "><a class="page-link menuhover" href="#">3</a></li>
+                                <li class="page-item "><a class="page-link menuhover" href="#">Next >></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--            Part 2  End here-->
+        </div>
+    </div>
+</section>
+
+<!--Middle part End here-->
+
+<!--footer section start here-->
+<footer class="bg-primary  py-5">
+
+    <!--    footer1 section start here-->
+
+    <div class="container">
+        <div class="row hidden justify-content-center">
+
+            <div class="col-md-10">
+                <div class="row justify-content-center footer1">
+                    <div class="col-md-3 py-3 border-dark border-end">
+                        <div class="row">
+                            <div class="col-md-3 pt-4 text-lg-end text-center">
+                                <i class="fa-solid fa-phone-volume"></i>
+                            </div>
+                            <div class="col-md-9 pt-2 text-lg-start text-center">
+                                <p class="">call us</p>
+                                <p class="mt-0">+880-766-1234</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 border-dark border-end">
+                        <div class="row">
+                            <div class="col-md-3  pt-4 text-lg-end text-center">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </div>
+                            <div class="col-md-9 pt-2 text-lg-start text-center">
+                                <p class="">Write to us</p>
+                                <p class="mt-0">emample@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 py-3">
+                        <div class="row">
+                            <div class="col-md-3  pt-4 text-lg-end text-center">
+                                <i class="fa-regular fa-address-card"></i>
+                            </div>
+                            <div class="col-md-9 pt-2 text-lg-start text-center">
+                                <p class="">Address</p>
+                                <p class="mt-0">12 Green road dhaka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-1"></div>
+
+        </div>
+        <div class="row hidden text-start">
+            <div class="col-md-12 px-5 py-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29" fill="none">
+                    <path d="M20.5257 19.8415C19.255 21.4972 16.7603 20.1958 14.7666 19.3175C16.2412 22.2874 16.7545 25.5167 14.7948 26.0691C13.3705 26.4726 11.967 23.991 11.7831 22.7048C11.5798 21.2676 11.8813 19.1232 13.6635 16.6888C15.6185 14.0139 18.0972 13.1391 20.9713 12.6999C23.3614 12.3341 26.1165 13.369 26.1165 13.369C26.1165 13.369 21.2405 18.906 20.5257 19.8415ZM7.74641 20.2528C6.52029 20.6848 3.67271 20.5805 3.37357 19.1312C2.95988 17.1344 6.06206 16.098 9.37909 16.0387C7.67808 14.6745 5.37201 13.0652 6.2582 11.1757C6.7545 10.1086 9.42158 3.22966 9.42158 3.22966C9.42158 3.22966 12.1063 5.99005 12.8831 8.27947C13.8206 11.0334 13.6901 12.8432 12.2165 15.8108C10.8758 18.5152 9.117 19.769 7.74641 20.2528ZM21.435 10.6838C18.4168 10.807 16.7253 11.1486 14.7853 13.0823C15.6093 10.4715 15.1375 8.81401 13.8563 6.07979C12.4735 3.13618 8.47182 0 8.47182 0C8.47182 0 4.93554 9.02493 4.41511 10.3534C3.40587 12.9322 5.20375 14.3113 6.27452 14.9897C3.96369 14.5338 0.466844 16.3691 1.05254 19.9385C1.41116 22.1125 5.1225 22.7611 7.39526 22.0017C8.344 21.6874 9.15745 21.5477 10.166 20.6976C9.8798 21.9844 10.1249 22.7684 10.2819 23.7586C10.6586 26.1261 12.9429 29.12 15.0399 28.4347C18.478 27.3078 18.4949 23.3578 17.0244 21.517C18.118 22.1562 20.1728 23.1162 21.9972 21.0292C22.9344 19.958 29.3132 12.6576 29.3132 12.6576C29.3132 12.6576 24.6854 10.5527 21.435 10.6838Z" fill="#FED500"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!--    footer1 section End here-->
+
+
+    <!--    footer2 section Start here-->
+    <div class="container">
+        <div class="row hidden py-5 border-bottom">
+            <div class="col-md-3 px-2">
+                <p class="pt-4 text-white">Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                <p class="text-white pt-3">Get Social</p>
+                <ul class="nav text-lg-start text-center">
+                    <li><a class="me-3 fs-4 text-white " href=""><i class="fa-brands fa-facebook menuhover"></i></a></li>
+                    <li><a class="me-3 fs-4 text-white " href=""><i class="fa-brands fa-linkedin menuhover"></i></a></li>
+                    <li><a class="me-3 fs-4 text-white " href=""><i class="fa-brands fa-twitter menuhover"></i></a></li>
+                    <li><a class="me-3 fs-4 text-white " href=""><i class="fa-brands fa-instagram menuhover"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 px-2">
+                <h5 class="text-white">Contact info</h5>
+                <ul class="navbar-nav  navbar-brand py-3">
+                    <li><p class="navbar-brand  text-white">Privacy</p></li>
+                    <li><p class="navbar-brand  text-white">432 West Green road Dhaka, </p></li>
+                    <li><p class="navbar-brand  text-white"><i class="fa-solid fa-phone-volume"></i> +880-866-8877</p></li>
+                    <li><p class="navbar-brand  text-white"><i class="fa-solid fa-envelope-open-text"></i> example@gmail.com</p></li>
+
+                </ul>
+            </div>
+            <div class="col-md-3 px-2">
+                <h5 class="text-white">Helpful Links</h5>
+                <ul class="navbar-nav navbar-brand py-3">
+                    <li><a class="nav-link menuhover mb-2 text-white" href="#">Abouts Us</a></li>
+                    <li><a class="nav-link menuhover mb-2 text-white" href="#">Customer Support</a></li>
+                    <li><a class="nav-link menuhover mb-2 text-white" href="#">Privacy &Policy</a></li>
+                    <li><a class="nav-link menuhover mb-2 text-white" href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 px-2">
+                <h5 class="text-white">Destinations</h5>
+                <ul class="navbar-nav navbar-brand py-3">
+                    <li><a class="nav-link mb-2 text-white menuhover" href="#">Tours</a></li>
+                    <li><a class="nav-link mb-2 text-white menuhover" href="#">Tours</a></li>
+                    <li><a class="nav-link mb-2 text-white menuhover" href="#">Travel Blog</a></li>
+                    <li><a class="nav-link mb-2 text-white menuhover" href="#">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="py-2 text-white">Copyright © 2023 by Tanvir Hasan Nahid</p>
+    </div>
+
+
+
+    <!--    footer2 section End here-->
+
+
+
+</footer>
+<!--footer section End here-->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="js/main.js"></script>
+<script src="js/textanimation.js"></script>
+
+</body>
+</html>
